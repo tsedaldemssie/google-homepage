@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Google Homepage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            display: block;
+            width:50%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 50px;
+            }
+      
+        div {
+             text-align: center;
+             display: block;
+             margin-top: 15px;
+             margin-left: auto;
+             margin-right: auto;
+            }
+        
+        .search-bar{
+            display: block;
+            width: 75%;
+            height: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .button  {
+            font-weight: bold;
+            font-size: 13px;
+            color: #757575;
+            background-color: #f2f2f2;
+            padding: 10px 16px 10px 16px; 
+            border: none;
+            margin-left: 4px;
+            margin-right: 4px;
+             }
+    
+        a {
+            text-decoration: none;
+            display: inline;
+            text-align: center;
+            padding: 14px 16px;
+            position: relative;
+            color: #222;
+            opacity: 0.75; 
+            font-weight:lighter; 
+            font-size: 15px; 
+            }
+        
+        a:hover {
+            text-decoration: none;
+	        color: #aaf;
+	        text-shadow: none;
+	        transition: 500ms linear 0s;
+	        outline: 0 none;
+        }
+        
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 20;
+        }
+        .right-nav {
+            position: fixed;
+            top: 0;
+            right: 7px;
+        }
+        
+/*
+        .footer {
+            bottom: 0;
+            left: 0;
+            position: fixed;
+            background-color:#f2f2f2; 
+        }
+        
+        .right-footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            background-color:f2f2f2;  
+        }
+        
+*/
+        .sign-in {
+            border:1px solid #4285f4;
+            background:#4683ea;
+            color: white;
+            font-weight: bolder; 
+            border-radius: 2px; 
+            padding: 5px 12px;
+            opacity:1; 
+        }
+        
+    </style>
+</head>
+
+<body>
+   
+    <img src="assets/blackGirlMagic.jpeg" alt="Black Girl Magic">
+    <form>
+        <input class="search-bar" type="text" placeholder="Search Google">
+        <div id="button">
+            <input class="button" type="submit" value="Google Search">
+            <input class="button" type="submit" value="I'm Feeling Lucky">
+        </div>
+    </form>
+    
+    <nav role="navigation">
+       <div class="nav"> 
+            <a href="#About">About</a>
+            <a href="#Store">Store</a>
+                <div class="right-nav">
+                    <a href="#Gmail">Gmail</a>
+                    <a href="#Images">Images</a>
+                    <a class="sign-in" href="#SignIn">Sign In</a>
+                </div>
+        </div>
+    </nav>
+    
+    <footer role="contentinfo">
+           <div class="footer"> 
+                <a href="#Advertising">Advertising</a>
+                <a href="#Business">Business</a>
+                    <div class="right-footer"> 
+                        <a href="#Privacy">Privacy</a>
+                        <a href="#Terms">Terms</a>
+                        <a href="#Settings">Settings</a>
+                    </div>
+            </div>
+    </footer>
+    
+</body>
+</html>

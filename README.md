@@ -1,0 +1,1 @@
+So this is my first project. I think I did pretty well. I love the black girl magic pic I used. Some of the formatting was a struggle, but I pushed through and was able to solve all my problems. Only up from her baybayyy! 
